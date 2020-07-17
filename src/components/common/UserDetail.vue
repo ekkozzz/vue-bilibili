@@ -13,7 +13,7 @@
           </p>
           <span class="line"></span>
           <p>
-            <span>2800</span>
+            <span>2200</span>
             <span class="type">关注</span>
           </p>
           <span class="line"></span>
