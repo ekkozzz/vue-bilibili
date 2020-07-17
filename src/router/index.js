@@ -11,7 +11,7 @@ const routes = [
   {
     path: '/index',
     name: 'Home',
-    component: () => import('../views/UserInfo.vue')
+    component: () => import('../views/Home.vue')
   },
   {
     path: '/register',
