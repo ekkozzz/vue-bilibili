@@ -11,6 +11,9 @@ const routes = [
   {
     path: '/index',
     name: 'Home',
+    meta: {
+      keepalive: true
+    },
     component: () => import('../views/Home.vue')
   },
   {
@@ -34,6 +37,12 @@ const routes = [
     name: 'edit',
     meta: { isLogin: true },
     component: () => import('../views/Edit.vue')
+  },
+  {
+    path: '/detail/:id',
+    name: 'detail',
+    meta: { isLogin: true },
+    component: () => import('../views/Detail.vue')
   }
 ]
 

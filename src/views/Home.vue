@@ -16,8 +16,9 @@
               :item="item"
               v-for="(item, index) in items.list"
               :key="index"
-            /></div
-        ></van-list>
+            />
+          </div>
+        </van-list>
       </van-tab>
     </van-tabs>
   </div>
@@ -38,7 +39,6 @@ export default {
     async selectCategory() {
       const res = await this.$http.get('/category')
       this.changeCategory(res.data)
-      this.getActiveData()
     },
     changeCategory(data) {
       const res = data.map(item => {
@@ -50,6 +50,7 @@ export default {
         return item
       })
       this.category = res
+      this.getActiveData()
     },
     async getActiveData() {
       const categoryItem = this.categoryItem()
