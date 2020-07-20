@@ -9,7 +9,7 @@
         </div>
         <div>
           <van-icon name="coupon-o" />
-          <span>666</span>
+          <span>777</span>
         </div>
       </div>
     </div>
