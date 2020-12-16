@@ -46,11 +46,11 @@
       </div>
       <div>
         <van-icon name="star" size="25" color="#757575" />
-        <span>点赞</span>
+        <span>收藏</span>
       </div>
       <div>
         <van-icon name="share" size="25" color="#757575" />
-        <span>点赞</span>
+        <span>转发</span>
       </div>
     </div>
     <div class="list">
